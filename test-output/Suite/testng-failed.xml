@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Inf.extendreportlistener.ExtendReportListener"/>
+  </listeners>
+  <test name="Hms admin login Test(failed)">
+    <classes>
+      <class name="Inf.admintestcases.addvisitorpagetest">
+        <methods>
+          <include name="setup"/>
+          <include name="aftermethod"/>
+          <include name="display1"/>
+        </methods>
+      </class> <!-- Inf.admintestcases.addvisitorpagetest -->
+    </classes>
+  </test> <!-- Hms admin login Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

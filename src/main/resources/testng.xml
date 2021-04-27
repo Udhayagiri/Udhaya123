@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+
+<listener class-name="Inf.extendreportlistener.ExtendReportListener"/>
+
+</listeners>
+
+   <test name="Hms admin login Test">
+  
+    <classes>
+      <class name="Inf.admintestcases.logintestcase"/>
+       <class name="Inf.admintestcases.homepagetest"/>
+        <class name="Inf.admintestcases.frontofficetest"/>
+         <class name="Inf.admintestcases.addvisitorpagetest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
